@@ -1,0 +1,75 @@
+
+body{
+position: relative;
+margin: 0;
+
+}
+
+.row_even .box:nth-child(even) {
+	background-color: #43221b ;}
+.row_odd .box:nth-child(odd) {
+	background-color: #43221b ;
+	}
+.row{
+	width: 40vh;
+	height: 10vh;
+	position: relative;
+}
+.container{
+position: relative;
+	width: 80vh;
+	height: 80vh;
+    margin: auto;
+	border: 3px solid;
+	top: 10vh;
+}
+.container1{
+	position: absolute;
+	top: 0vh;
+	left: 0vh;
+
+
+}
+.container2{
+	position: absolute;
+
+	top:0vh;
+	left: 40vh;
+
+}
+.container3{
+	position: absolute;
+	bottom: 0vh;
+	left: 0vh;
+
+}
+.container4{
+	position: absolute;
+	bottom: 0vh;
+	left: 40vh;
+
+}
+
+.box1{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.box2{position: absolute;
+	top: 0;
+	left: 10vh;
+}
+.box3{position: absolute;
+	top: 0;
+	left: 20vh;
+}
+.box4{position: absolute;
+	top: 0;
+	left: 30vh;
+	}
+.box1,.box2,.box3, .box4{
+width: 25%;
+height: 100%;
+background-color: #E9BC61;
+}
